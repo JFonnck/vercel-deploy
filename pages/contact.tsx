@@ -1,11 +1,10 @@
-import { FC } from "react"
 import Link from "../node_modules/next/link"
 
 
 import { DarkLayout } from "../components/layouts/DarkLayout"
 import { Main } from "../components/layouts/Main"
 
-export function Contact() {
+export default function Contact() {
     return (
         <>
             <h1>Contact Page</h1>
